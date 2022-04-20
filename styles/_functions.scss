@@ -1,0 +1,10 @@
+@mixin center() {
+  display: grid;
+  place-items: center;
+}
+
+@mixin flex($direction, $jutify, $align) {
+  flex-direction: $direction;
+  justify-content: $jutify;
+  align-items: $align;
+}
